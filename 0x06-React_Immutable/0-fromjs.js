@@ -6,8 +6,6 @@ import {fromJS} from 'immutable';
  * @param {Object} object - The plain JS object to convert
  * @return {Map} - The immutable Map
  */
-function getImmutableObject(object) {
-  return fromJS(object);
+export default function getImmutableObject(object) {
+	return fromJS(object);
 }
-
-export default getImmutableObject;
