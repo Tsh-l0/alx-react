@@ -6,7 +6,7 @@ module.exports = {
 	output: {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname, 'public'),
-		assetModuleFilename: 'assets/[hash][ext][query]'
+		assetModuleFilename: 'assets/[name][ext]'
 	},
 	module: {
 		rules: [
@@ -16,8 +16,15 @@ module.exports = {
 			},
 			{
 				test: /\.(png|jpe?g|gif|svg)$/i,
-				type: 'asset/resource',
 				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							name: '[name]-[hash].[ext]',
+							outputPath: 'assets/',
+							publicPath: 'assets/'
+						}
+					},
 					{
 						loader: 'image-webpack-loader',
 						options: {
