@@ -1,4 +1,4 @@
-import { Map } from 'immutable';
+import {Map} from 'immutable';
 
 /**
  * Deeply merges two plain JavaScript objects using Immutable.js,
@@ -6,8 +6,9 @@ import { Map } from 'immutable';
  *
  * @param {Object} page1 - The first object to merge
  * @param {Object} page2 - The second object to merge
- * @returns {List} - Immutable List containing merged values
+ * @return {Map} - Immutable Map with deeply merged values
  */
 export default function mergeDeeplyElements(page1, page2) {
-	return Map(page1).mergeDeep(Map(page2)).toList();
+  // eslint-disable-next-line new-cap
+  return Map(page1).mergeDeep(Map(page2));
 }
