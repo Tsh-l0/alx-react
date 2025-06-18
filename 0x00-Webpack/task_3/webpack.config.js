@@ -5,9 +5,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
 	mode: 'development',
 	entry: {
-		header: './modules/header/header.js',
-		body: './modules/body/body.js',
-		footer: './modules/footer/footer.js'
+		header: { import: './modules/header/header.js', dependOn: 'shared' },
+		body: { import: './modules/body/body.js', dependOn: 'shared' },
+		footer: { import: './modules/footer/footer.js', dependOn: 'shared' },
+		shared: 'jquery',
 	},
 	output: {
 		path: path.resolve(__dirname, 'public'),
@@ -15,7 +16,8 @@ module.exports = {
 	},
 	devtool: 'inline-source-map',
 	devServer: {
-		static: path.resolve(__dirname, 'public'),
+		static: path.join(__dirname, './public'),
+		open: true,
 		port: 8564,
 	},
 	plugins: [
