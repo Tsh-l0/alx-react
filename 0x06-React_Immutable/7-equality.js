@@ -1,13 +1,12 @@
-import { is, Map } from 'immutable';
+import {is} from 'immutable';
 
 /**
  * Compares two Immutable.js Maps for deep equality.
  *
  * @param {Map} map1 - The first Immutable Map
  * @param {Map} map2 - The second Immutable Map
- * @returns {boolean} - True if both Maps are equal
+ * @return {boolean} - True if both Maps are equal
  */
-\
-export default function areMapsEqual(Map1, Map2) {
-	return is(map1, map2);
+export default function areMapsEqual(map1, map2) {
+  return is(map1, map2);
 }
