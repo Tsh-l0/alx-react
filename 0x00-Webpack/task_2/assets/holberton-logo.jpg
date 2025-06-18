@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+        </script>
+            <script>
+
+                function gtag() { dataLayer.push(arguments); }
+
+                gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'analytics_storage': 'denied',
+                    'functionality_storage': 'denied',
+                    'personalization_storage': 'denied',
+                    'security_storage': 'granted'
+                });
+            </script>
+            <!-- Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERWPGTJ5X8"></script>
+            <script type="text/javascript">
+
+              gtag('js', new Date());
+
+              gtag('config', 'G-ERWPGTJ5X8', {
+                'allow_google_signals': false,
+                'anonymize_ip': true
+              });
+
+              window.EventsCaptureEnabled = 'True' === 'True';
+            </script>
+            <!-- Google Tag Manager -->
+            <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KTB664ZR');
+            </script>
+
+    <script data-document-language="true"
+            src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+            data-domain-script="93ab55d0-5227-4b5f-9baa-7c0805ac9eec"
+            id="cookie-consent-script"
+            charset="UTF-8"
+            type="text/javascript">
+    </script>
+            <script type="text/javascript" src="https://cdn.cookielaw.org/consent/93ab55d0-5227-4b5f-9baa-7c0805ac9eec/OtAutoBlock.js"></script>
+
+
+    <title>Attachment</title>
+    
+    <meta http-equiv="content-language" content="en-us">
+    <link rel="shortcut icon" href="/Content/logo/favicon.ico" type="image/x-icon" />
+
+    <link rel="preload" as="style" href="/Content/css/bootstrap.min.css" onload="this.rel='stylesheet'" />
+    <link rel="preload" as="style" href="/bundles/pnr-global-styles-v2?v=pbbzawaefXCU_eDti3c_HpL6i42cYZx6-6gZaoinIgY1" onload="this.rel='stylesheet'" />
+    <link rel="preload" as="style" href="/bundles/react-styles?v=vxTjrKlECVmKhVM4_M-6YbhyCjCZzIFq3d3kWmj8nUo1" onload="this.rel='stylesheet'" />
+    <link rel="preload" as="style" href="/home/assests/styles/global-override.css" onload="this.rel='stylesheet'" />
+    <link href="/bundles/react-styles?v=vxTjrKlECVmKhVM4_M-6YbhyCjCZzIFq3d3kWmj8nUo1" rel="stylesheet"/>
+
+
+    <script src="/Scripts/stickyfill.min.js" defer async></script>
+
+        <link rel="canonical" href="https://www.globenewswire.com/NewsRoom/AttachmentNg/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc" />
+                <link rel="alternate" href="https://www.globenewswire.com/NewsRoom/AttachmentNg/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc" hreflang="x-default" />
+                <link rel="alternate" href="https://www.globenewswire.com/fr/NewsRoom/AttachmentNg/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc" hreflang="fr" />
+                <link rel="alternate" href="https://www.globenewswire.com/de/NewsRoom/AttachmentNg/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc" hreflang="de" />
+<script type="text/javascript" defer src="/bundles/layout-jquery-scripts?v=TXkXsX7p7r9-AnnjDqFdUGhnEN2-r8TpYAaGbshNq4s1"></script>
+        <link rel="preload" href="/bundles/react-scripts?v=Qx5eaMgFf9gTsbCL554iFvZKAOmwJUW4VCtaMvfJuAk1" as="script">
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            $('#standalone_image_page_form').submit(function () {
+                var string = 'input:radio[name="standalone-image-choice"]:checked';
+                var val = $(string).val();
+                window.open(
+                    val,
+                    '_blank' // <- This is what makes it open in a new window.
+                );
+                return false;
+            });
+        });
+    </script>
+
+
+    
+    <link href="/Content/css/views/attachment-page-overwrite.css" rel="stylesheet" />
+
+
+    <script src="/bundles/global-shared-scripts?v=judktJnKKFTlTNQ_2dcLwzh7zTItc3AhwgQaeqAriwU1"></script>
+
+</head>
+<body id="app-body-container">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTB664ZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div role="main">
+        <a href="#maincontainer" class="skip-link btn btn-primary text-uppercase">Accessibility: Skip TopNav</a>
+        <!--Start header -->
+        <div id="pnr-global-site-header-section" style="min-height: 85px">
+        </div>
+        <!--End header-->
+        <!-- Start Body -->
+        <div class="pnr-body-container" id="maincontainer" tabindex="-1">
+                <script type="text/javascript">
+
+            // used in ui component
+        window.pnrApplicationSettings = {
+                Application:"pnr",
+                SelectedLocale: 'en-US',
+                PnrHostUrl: 'https://www.globenewswire.com',
+                IsAuthenticated: 'False' === "True" ? true : false,
+                ContextUser: '',
+                ApplicationUrl: 'https://www.globenewswire.com',
+                PageContext: '',
+                SubscriptionId: 0,
+                SubscriptionName: '',
+                ArticleLogoUrl: '',
+                ArticleHeadline: '',
+                IsMobileVersion: 'False' === "True" ? true : false,
+                HideLanguageSelection : false,
+                NewsSearchHeading: '',
+                ArticleMediaAttachments: [],
+                AuthSessionExpirationMinutes: '0',
+                AppLogoUrl: 'https://www.globenewswire.com/content/logo/color.svg',
+                ReaderForgotPasswordUrl: 'https://pnrlogin.globenewswire.com/en/reset/confirmresetpassword',
+                ReaderRegisterUrl: 'https://pnrlogin.globenewswire.com/en/register',
+                IsQuickSignInEnabled: true,
+                ReaderAccountBaseUrl: 'https://pnrlogin.globenewswire.com',
+                articleSideBarSettings:{},
+                SiteSupportedLanguages: 'en,fr,de',
+                CookieConsentSettings: {
+                   IsCookieConsentV2Enabled: true,
+                   OneTrustEndpoint: 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js',
+                   OneTrustDomain: '93ab55d0-5227-4b5f-9baa-7c0805ac9eec',
+                },
+                HideOrganizationSearch: false,
+                SearchBasePath: '/search/',
+                GoogleClientId: '747241285181-l5skhv8icjefl651ehg7ps4eif8kpqgi.apps.googleusercontent.com',
+                GoogleSsoEnabled: true,
+                ArticleLanguage: "",
+                LinkedInSsoEnabled: false,
+                LinkedInVersion: '',
+				ClaimStatus: null,
+				HideQuickSignInLogin:false,
+                SessionId: '',
+                ContextWidgetPublicId:""
+            };
+    </script>
+
+
+
+
+
+
+<div class="main-container attachment-main-container container-overwrite resource-container" id="container-home">
+    <div id="pnr-global-social-media-sidebar-section" class="attachment-social-media-container"></div>
+    <div class="main-body-container">
+        <div class="row attachment-row attachment-title">
+            <h1>Holberton Logo.png</h1>
+        </div>
+        <div class="row attachment-row">
+            <div class="col-12 col-md-12 col-lg-8 col-xl-8">
+                <div class="attachment-image-container">
+                            <img src="https://ml.globenewswire.com/Resource/Download/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc?size=3" alt="Holberton Logo.png">
+
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="atachment-tool-section">
+                    <h2>Format</h2>
+
+                        <span>PNG</span>
+
+
+
+                </div>
+                    <div class="atachment-tool-section">
+                        <h2>Source</h2>
+                        <span>Holberton</span>
+                    </div>
+
+                    <div class="atachment-tool-section">
+                        <h2>Downloads</h2>
+                        <form id="standalone_image_page_form">
+                            <input name="__RequestVerificationToken" type="hidden" value="UT-9NuLob06sDxVHH7n18sZEsiXFPdcDECncI-KzjMFn9Bkz_Vnq18XsEdGTdgWLzXaCXzvfJHNei_s12kcd26snTV81" />
+                            
+                            <ul id="modal-filelist">
+                                <li class="">
+                                    <label class="radio-button-container">
+                                        Original
+                                        <input type="radio" id="standalone-image-choice-1" name="standalone-image-choice" value="https://ml.globenewswire.com/Resource/Download/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc?size=0">
+                                        <span class="radio-button-checkmark"></span>
+                                    </label>
+                                </li>
+                                <li class="">
+                                    <label class="radio-button-container">
+                                        Large
+                                        <input type="radio" id="standalone-image-choice-2" name="standalone-image-choice" value="https://ml.globenewswire.com/Resource/Download/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc?size=3">
+                                        <span class="radio-button-checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-button-container">
+                                        Medium
+                                        <input type="radio" id="standalone-image-choice-3" name="standalone-image-choice" value="https://ml.globenewswire.com/Resource/Download/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc?size=2">
+                                        <span class="radio-button-checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-button-container">
+                                        Small
+                                        <input type="radio" id="standalone-image-choice-4" name="standalone-image-choice" value="https://ml.globenewswire.com/Resource/Download/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc?size=1" checked="checked">
+                                        <span class="radio-button-checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <input type="submit" value="Download" class="send-button btn btn-primary">
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    window.combinedMediaPortal = {
+        socialMediaSideBarElementId:"pnr-global-social-media-sidebar-section",
+        socialShareModel: JSON.parse('{\"SocialItemData\":{\"Url\":\"https://ml.globenewswire.com/Resource/Download/3fe1ca81-9f86-4d3e-aa2f-407e890c66bc?size=3\",\"Title\":\"Holberton Logo.png\",\"Body\":\"Holberton Logo.png\"},\"AdditionalItems\":null,\"BasicModel\":true,\"ShowPintrest\":true}')
+    }
+
+    window.pnrApplicationSettings.PageContext = 'attachment-page';
+
+</script>
+        </div>
+        <!-- End Body -->
+        <!--Start footer -->
+        <div id="pnr-global-site-footer-section" class="home-page-footer"></div>
+        <!--End footer-->
+
+
+
+        <script>
+            var preloadedScript = document.createElement("script");
+            preloadedScript.src = "/bundles/react-scripts?v=Qx5eaMgFf9gTsbCL554iFvZKAOmwJUW4VCtaMvfJuAk1";
+            document.head.appendChild(preloadedScript);
+        </script>
+        <noscript>
+            <script src="/bundles/react-scripts?v=Qx5eaMgFf9gTsbCL554iFvZKAOmwJUW4VCtaMvfJuAk1"></script>
+
+        </noscript>
+    </div>
+    <div id="quick-reader-sign-container"></div>
+</body>
+</html>
