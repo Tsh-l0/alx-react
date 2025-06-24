@@ -2,7 +2,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-function App({ isLoggedIn }) {
+export function App({ isLoggedIn }) {
 	return (
 		<div>
 			<h1>Dashboard</h1>
@@ -11,8 +11,8 @@ function App({ isLoggedIn }) {
 	);
 }
 
-const mapStateToProps = (state) => ({
-	isLoggedIn: state.ui.isLoggedIn,
+export const mapStateToProps = (state) => ({
+	isLoggedIn: state.get('isUserLoggedIn'),
 });
 
 export default connect(mapStateToProps)(App);
