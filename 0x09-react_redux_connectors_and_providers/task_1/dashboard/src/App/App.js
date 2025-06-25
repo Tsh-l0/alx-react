@@ -1,5 +1,6 @@
 // App.js
 import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { displayNotificationDrawer, hideNotificationDrawer } from '../actions/uiActionCreators';
 
@@ -20,6 +21,21 @@ export function App({ isLoggedIn, displayDrawer, displayNotificationDrawer, hide
 		</div>
 	);
 }
+// Define expected props
+App.propTypes = {
+	isLoggedIn: PropTypes.bool,
+	displayDrawer: PropTypes.bool,
+	displayNotificationDrawer: PropTypes.func,
+	hideNotificationDrawer: PropTypes.func,
+};
+
+// Set default values for props
+App.defaultProps = {
+	isLoggedIn: false,
+	displayDrawer: false,
+	displayNotificationDrawer: () => {},
+	hideNotificationDrawer: () => {},
+};
 
 export const mapStateToProps = (state) => ({
 	isLoggedIn: state.get('isUserLoggedIn'),
@@ -32,4 +48,4 @@ export const mapDispatchToProps = {
 	hideNotificationDrawer,
 };
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
