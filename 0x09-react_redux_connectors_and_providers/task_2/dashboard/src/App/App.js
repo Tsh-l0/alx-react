@@ -2,13 +2,32 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { displayNotificationDrawer, hideNotificationDrawer } from '../actions/uiActionCreators';
+import {
+	displayNotificationDrawer,
+	hideNotificationDrawer,
+	loginRequest,
+} from '../actions/uiActionCreators';
 
-export function App({ isLoggedIn, displayDrawer, displayNotificationDrawer, hideNotificationDrawer }) {
+export function App({
+	isLoggedIn,
+	displayDrawer,
+	displayNotificationDrawer,
+	hideNotificationDrawer,
+	login
+}) {
 	return (
 		<div>
 			<h1>Dashboard</h1>
-			{isLoggedIn ? <p>Welcome back!</p> : <p>Please log in.</p>}
+			{isLoggedIn ? ( 
+				<p>Welcome back!</p>
+			) : (
+				<>
+					<p>Please log in.</p>
+					<button onClick={() => login('student@alx.com', 'pass123')}>
+						Log In
+					</button>
+				</>
+			)}
 
 			{displayDrawer ? (
 				<div className="drawer">
@@ -27,6 +46,7 @@ App.propTypes = {
 	displayDrawer: PropTypes.bool,
 	displayNotificationDrawer: PropTypes.func,
 	hideNotificationDrawer: PropTypes.func,
+	login: PropTypes.func
 };
 
 // Set default values for props
@@ -35,6 +55,7 @@ App.defaultProps = {
 	displayDrawer: false,
 	displayNotificationDrawer: () => {},
 	hideNotificationDrawer: () => {},
+	login: () => {}
 };
 
 export const mapStateToProps = (state) => ({
@@ -46,6 +67,7 @@ export const mapStateToProps = (state) => ({
 export const mapDispatchToProps = {
 	displayNotificationDrawer,
 	hideNotificationDrawer,
+	login: loginRequest
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
